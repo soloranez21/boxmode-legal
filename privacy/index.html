@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boxmode — Privacy Policy</title>
+<meta name="description" content="How Boxmode handles your data: what stays on your iPhone, AI analysis only with your permission, and your rights.">
+<link rel="stylesheet" href="../style.css">
+<link rel="canonical" href="https://soloranez21.github.io/boxmode-legal/privacy/">
+<link rel="alternate" hreflang="en" href="https://soloranez21.github.io/boxmode-legal/privacy/">
+<link rel="alternate" hreflang="de" href="https://soloranez21.github.io/boxmode-legal/de/privacy/">
+</head>
+<body>
+<main>
+<p class="lang"><a href="../de/privacy/" lang="de" hreflang="de">Deutsch</a></p>
+<a class="brand" href="../"><span class="dot" aria-hidden="true"></span>Boxmode</a>
+<h1>Boxmode Privacy Policy</h1>
+<p class="meta">Last updated: October 23, 2026 · Effective: October 23, 2026</p>
+<p>Boxmode is a boxing coach for iPhone. It watches you train through your iPhone's camera and coaches you. It is built so that your training stays on your iPhone.</p>
+<h2 id="the-short-version">The short version</h2>
+<div class="card">
+<ul>
+  <li><strong>Your camera stays on your iPhone.</strong> Live tracking runs on your iPhone. Your videos, rounds, history and answers are saved only there.</li>
+  <li><strong>AI analysis is your choice.</strong> Only if you allow it, a silent copy of the clip you analyze, still pictures from it and a few training details go to our server and to Google's Gemini AI model, through OpenRouter. Our server deletes the clip when the analysis is done and keeps the report for at most 1 hour. Google keeps a copy for up to 55 days to check for misuse.</li>
+  <li><strong>No account, no ads, no tracking.</strong> We don't sell your data, we don't share it for advertising, and we don't use it to train AI.</li>
+  <li><strong>Subscriptions</strong> are paid through Apple. Superwall helps us run the subscription screen.</li>
+  <li><strong>Boxmode is for people aged 13 and older.</strong></li>
+  <li><strong>Delete everything at any time</strong> in Settings → "Delete all my data".</li>
+</ul>
+</div>
+<h2 id="who-is-responsible">Who is responsible</h2>
+<p>Aleksandr Saliukov, an individual developer, is responsible for Boxmode ("we", "us"). Under the EU General Data Protection Regulation (GDPR) he is the "controller".</p>
+<p>Goeschlgasse 3, 1030 Vienna, Austria</p>
+<p>Email: <strong><a href="mailto:support@glaw.app">support@glaw.app</a></strong></p>
+<h2 id="what-stays-on-your-iphone">What stays on your iPhone</h2>
+<p>Boxmode does almost everything on your iPhone. We never receive:</p>
+<ul>
+  <li>the live camera picture. Apple's Vision framework finds your body in it on your iPhone; the body points it measures include points on your face (nose, eyes and ears);</li>
+  <li>your recordings and the videos you import, the punch counts, scores and replays of your rounds, and your training history;</li>
+  <li>your setup answers, for example your experience, goals, training days and stance, and your first name if you enter one;</li>
+  <li>the birth month and year you give on the age screen, and the result of the age check;</li>
+  <li>your Career progress, your fighter's look and your settings;</li>
+  <li>AI reports, once they have reached your iPhone.</li>
+</ul>
+<p>Videos and training history are kept in the app's private storage with iOS data protection, and they are left out of iCloud and computer backups. Settings and setup answers can be part of your device backup, which Apple encrypts according to your backup settings.</p>
+<p>When you save a video or poster to Photos, or share it with the iOS share sheet, it goes where you send it. We don't receive it.</p>
+<h2 id="ai-round-analysis-only-with-your-permission">AI round analysis (only with your permission)</h2>
+<h3 id="when-it-happens">When it happens</h3>
+<p>The first time you ask for AI feedback, Boxmode explains what would be sent and asks for your permission. Only after you tap "Allow AI analysis" does Boxmode upload anything, and then only the clips you analyze in Analyze and the rounds you send for an AI review. You can turn this off at any time in Settings → "Allow uploads for AI analysis". Without it, nothing is uploaded, and the rest of the app works as usual.</p>
+<h3 id="what-is-sent">What is sent</h3>
+<p>For each analysis:</p>
+<ul>
+  <li>a silent, low-resolution copy of the clip (no sound, at most 30 seconds and 8 MB);</li>
+  <li>still pictures from the clip (up to 4 per second, at most 512 pixels on the long side);</li>
+  <li>your stance and experience level from setup;</li>
+  <li>a short movement summary measured on your iPhone: when each punch happened, on which side of the picture, and its type (straight, hook or uppercut), moments when both hands were low, how much of your body was visible, and whether the clip is mirrored;</li>
+  <li>the clip's length and shape, a random ID for the request, and a fingerprint (SHA-256 hash) of the original file, so the same upload isn't analyzed twice;</li>
+  <li>your iPhone's preferred languages, which iOS adds to every web request; our server keeps only whether your report should be in English or German;</li>
+  <li>a security signature from Apple's App Attest (see "App security and fair use").</li>
+</ul>
+<p>The clip and the pictures show what the camera saw: you, your face and the room around you. Your name, your other answers, your history and your original video are never sent.</p>
+<h3 id="who-receives-it">Who receives it</h3>
+<ul>
+  <li><strong>Cloudflare, Inc.</strong> (USA) runs our server (Cloudflare Workers). It stores the upload while the analysis runs (Cloudflare R2) and keeps the report until your iPhone collects it.</li>
+  <li><strong>OpenRouter, Inc.</strong> (USA) passes the request to the AI model.</li>
+  <li><strong>Google LLC</strong> (USA) runs the AI model <strong>Gemini 3.8 Flash</strong> (<code>google/gemini-3.8-flash</code>) on its paid Gemini API (Google AI Studio). Google receives the request from OpenRouter and processes it for OpenRouter.</li>
+</ul>
+<p>They work for us as processors (service providers) and may use the data only to provide this service.</p>
+<h3 id="what-the-ai-does">What the AI does</h3>
+<p>The model watches the clip and writes a coaching report: tips about your punches and guard with the moments they happen, one drill, and scores from 1 to 99 for guard, punches, defense, footwork, combos and pace. The report goes back to your iPhone. It is technique feedback written by a machine, and it can be wrong. It is not used to make any decision about you.</p>
+<h3 id="how-long-it-is-kept">How long it is kept</h3>
+<ul>
+  <li><strong>Our server</strong> deletes the upload as soon as the analysis ends, whether it finished, failed or was cancelled. An automatic rule also deletes any upload still there after 1 day. The report stays on our server for at most 1 hour, so your iPhone can collect it, and is then deleted.</li>
+  <li><strong>Our hosting provider's recovery logs</strong> can still hold deleted reports and records for up to 30 days before they're erased for good. We don't restore them. Uploaded videos are not part of these logs.</li>
+  <li><strong>OpenRouter</strong> passes the request on to Google and keeps request details such as time, model and cost for billing. It may keep the content itself only as its <a href="https://openrouter.ai/privacy">privacy policy</a> and our account settings allow. It doesn't train AI on it, and it sends our requests only to providers that don't either.</li>
+  <li><strong>Google</strong> keeps the request and the report for up to 55 days, only to detect misuse of its service. Authorized Google staff may look at items its systems flag. Google doesn't use them to train Gemini or to improve its other products; its rules only allow using them to detect misuse.</li>
+</ul>
+<h3 id="what-we-never-do">What we never do</h3>
+<p>We don't use your video to recognize or identify you, we don't create face or body templates, and we never use it for advertising. We don't use it to train AI models.</p>
+<h3 id="why-we-may-do-this">Why we may do this</h3>
+<p>Your consent (Art. 6(1)(a) GDPR). Where a video of your body could reveal something about your health, your explicit consent (Art. 9(2)(a) GDPR). You can withdraw your consent at any time in Settings; this doesn't affect analyses that already happened.</p>
+<h2 id="app-security-and-fair-use">App security and fair use</h2>
+<p>Our AI server only answers the real Boxmode app. This keeps it safe from misuse and its costs under control.</p>
+<ul>
+  <li><strong>App Attest.</strong> The first time you start an AI analysis, your iPhone creates a security key with Apple's App Attest, and Apple confirms that the key belongs to a genuine copy of Boxmode. Our server stores the key's ID, its public key, a counter and when it was last used. We call this the installation record. It holds no name, email address, Apple Account or device name. Every analysis request is signed with this key.</li>
+  <li><strong>Daily limit.</strong> The installation record also lets us count analyses (currently 5 a day for each installation). These counters are deleted within 2 days.</li>
+  <li><strong>IP address.</strong> Like every internet service, our server sees your IP address when your iPhone connects. It's used for that request and for a flood-protection counter that lasts 60 seconds. We never store it.</li>
+  <li><strong>Logs.</strong> Our server writes short technical log lines, such as which model ran, how many tokens it used, what it cost, and error codes. They contain no video, pictures, report text, IP address or installation key; Cloudflare only adds the time, the server version and a request number. Cloudflare keeps them for up to 7 days.</li>
+  <li><strong>How long:</strong> the installation record is kept until you use "Delete all my data" or until 12 months after it was last used, whichever comes first.</li>
+</ul>
+<p>Why: our legitimate interest in protecting the service from misuse and unexpected costs (Art. 6(1)(f) GDPR).</p>
+<h2 id="subscriptions">Subscriptions</h2>
+<h3 id="apple">Apple</h3>
+<p>You buy Boxmode Pro through Apple's App Store. Apple handles payment under its own terms and <a href="https://www.apple.com/legal/privacy/">privacy policy</a>. We never see your payment details. "Restore purchases" and "Manage subscription" in Settings talk to Apple directly.</p>
+<h3 id="superwall">Superwall</h3>
+<p>Superwall (Nest 22, Inc., USA) helps us sell the subscription. It processes purchases made on our subscription screen, tells the app whether your subscription is active, and shows us how the subscription screen performs. It works for us as a processor (service provider).</p>
+<p>Boxmode starts Superwall only when it shows the subscription screen: at the end of setup, on the "Unlock Boxmode" screen, or from Settings → "Get Boxmode Pro". Once started, it runs until you close the app. If you are a subscriber and don't open the subscription screen, Boxmode sends Superwall nothing.</p>
+<p>While it runs, Superwall receives:</p>
+<ul>
+  <li><strong>identifiers:</strong> a random user ID and a device ID that Superwall creates, and Apple's identifier for vendor (IDFV);</li>
+  <li><strong>device and app information,</strong> such as device model, iOS version, app version, install date, language, region, currency, time zone, network type, display and text-size settings, and your App Store country;</li>
+  <li><strong>your IP address,</strong> which Superwall stores with these events and uses to estimate your approximate location (city, region and country);</li>
+  <li><strong>subscription activity:</strong> when the subscription screen opens and closes, purchases you start, complete or cancel, purchases that fail, restores, and app opens and closes while Superwall runs;</li>
+  <li><strong>purchase information from Apple:</strong> product, price, currency, dates, whether a free trial is included, and Apple's transaction IDs, also from Apple's later renewal notices.</li>
+</ul>
+<p>Superwall never receives your name, your answers, your age, your videos, your AI reports or your training data. We don't use Superwall's install attribution or any advertising network.</p>
+<p>Why: to sell and manage your subscription (contract, Art. 6(1)(b) GDPR), and to understand how our subscription screen works (legitimate interest, Art. 6(1)(f) GDPR; you can object at any time).</p>
+<p>How long: Superwall keeps this data while it's needed for these purposes and then deletes it under its retention rules and our agreement. You can ask us at any time to have it deleted. See also <a href="https://superwall.com/legal/privacy-policy">Superwall's privacy policy</a>.</p>
+<h2 id="other-apple-services">Other Apple services</h2>
+<ul>
+  <li><strong>App Store and StoreKit:</strong> downloads, purchases, restores and the rating prompt are Apple's own services.</li>
+  <li><strong>Age check (Declared Age Range):</strong> in some places, for example Texas, Apple tells apps your age range if you allow it. Boxmode uses it only to check your age and, where the law requires it, a parent's permission. It keeps only the result of the check on your iPhone and never sends it to us or anyone else.</li>
+  <li><strong>Trial reminder:</strong> if you start a free trial, Boxmode offers to remind you 2 days before it ends. The reminder is set on your iPhone; nothing is sent to us.</li>
+</ul>
+<h2 id="permissions-boxmode-asks-for">Permissions Boxmode asks for</h2>
+<ul>
+  <li><strong>Camera:</strong> for live tracking and for recording rounds, on your iPhone. A clip leaves your iPhone only for AI analysis, with your permission.</li>
+  <li><strong>Photos (add only):</strong> to save videos and posters to your library when you tap Save. "Choose from Photos" uses Apple's picker, so Boxmode only receives the video you pick.</li>
+  <li><strong>Notifications:</strong> only for the trial reminder.</li>
+</ul>
+<p>Boxmode doesn't use your microphone, your location, your contacts or Apple Health, and it never asks to track you. You can change permissions in iOS Settings at any time.</p>
+<h2 id="when-you-email-us">When you email us</h2>
+<p>If you write to <a href="mailto:support@glaw.app">support@glaw.app</a>, we use your email address and your message only to answer you. We delete the conversation when it's no longer needed, normally within 12 months, unless the law requires us to keep it longer. Why: to handle your request (Art. 6(1)(b) and (f) GDPR).</p>
+<h2 id="how-long-data-is-kept">How long data is kept</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Data</th><th>Where</th><th>How long</th></tr></thead>
+  <tbody>
+    <tr><td>Videos, rounds, history, answers, AI reports</td><td>your iPhone</td><td>until you delete them, use "Delete all my data" or delete the app</td></tr>
+    <tr><td>AI upload: clip, pictures, training details</td><td>our server (Cloudflare)</td><td>deleted when the analysis ends, at most 1 day</td></tr>
+    <tr><td>AI report</td><td>our server (Cloudflare)</td><td>at most 1 hour</td></tr>
+    <tr><td>Deleted reports and records</td><td>our hosting provider's recovery logs</td><td>up to 30 days</td></tr>
+    <tr><td>AI request</td><td>OpenRouter</td><td>billing details; the content only as OpenRouter's privacy policy and our settings allow</td></tr>
+    <tr><td>AI request and report</td><td>Google</td><td>up to 55 days, only to detect misuse</td></tr>
+    <tr><td>Installation record</td><td>our server (Cloudflare)</td><td>until "Delete all my data", at most 12 months after last use</td></tr>
+    <tr><td>Daily analysis counters</td><td>our server (Cloudflare)</td><td>about 2 days</td></tr>
+    <tr><td>Technical logs (no media, no IP)</td><td>Cloudflare</td><td>up to 7 days</td></tr>
+    <tr><td>IP address</td><td>our server</td><td>not stored (60-second flood counter)</td></tr>
+    <tr><td>Subscription data</td><td>Superwall</td><td>while needed for the subscription; deleted on request</td></tr>
+    <tr><td>Purchases</td><td>Apple</td><td>under Apple's policies</td></tr>
+    <tr><td>Support emails</td><td>our mailbox</td><td>normally up to 12 months</td></tr>
+  </tbody>
+</table></div>
+<h2 id="who-receives-data-and-where">Who receives data, and where</h2>
+<p>Cloudflare, OpenRouter, Google, Superwall and Apple are the only companies that receive data from the Boxmode app, and each of them protects it at least as well as this policy describes.</p>
+<p>Cloudflare, OpenRouter and Superwall work for us under data processing agreements that limit them to our purposes (<a href="https://www.cloudflare.com/cloudflare-customer-dpa/">Cloudflare</a>, <a href="https://openrouter.ai/data-processing-agreement">OpenRouter</a>, <a href="https://superwall.com/legal/dpa">Superwall</a>). Google processes AI requests for OpenRouter under Google's data processing terms for its paid API. Apple is responsible for its own services.</p>
+<p>These companies are based in the USA and may process data in the USA and other countries. Transfers from the EU, the EEA, the UK or Switzerland rely on the EU Standard Contractual Clauses (and the UK and Swiss versions) or another mechanism permitted by the GDPR, such as the EU-U.S. Data Privacy Framework where the recipient is certified.</p>
+<p>Cloudflare chooses where to store our server's data: uploads are usually kept in its Eastern Europe location, and the other records usually in a data center near where you first used AI analysis.</p>
+<p>We don't sell personal data, we don't share it for cross-context behavioral advertising, and we don't use it for targeted advertising. The only automated evaluation is the technique report you ask for: it is shown only to you, and we make no decisions about you with it.</p>
+<h2 id="security">Security</h2>
+<p>Every connection is encrypted (HTTPS). On your iPhone, Boxmode's files use iOS data protection. Uploads are encrypted while stored at Cloudflare. App Attest makes sure only the real app can use our server, and only the developer can access it. If a data breach affects you, we'll tell you and the authorities as the law requires. No system is perfectly secure.</p>
+<h2 id="your-choices-and-rights">Your choices and rights</h2>
+<p><strong>In the app:</strong></p>
+<ul>
+  <li>Turn AI analysis on or off: Settings → "Allow uploads for AI analysis".</li>
+  <li>Delete a round from your history. If its AI report is still on our server, it's deleted there too.</li>
+  <li>Delete everything: Settings → "Delete all my data" first asks our server to delete your installation record and your analyses right away, then deletes everything Boxmode saved on your iPhone, and Boxmode starts fresh. If our server can't be reached, you can try again later or delete only on your iPhone; the installation record then expires on its own within 12 months. It doesn't cancel your subscription: billing continues through Apple until you cancel it in Settings → "Manage subscription" or in iOS Settings → your name → Subscriptions. It can't reach Superwall's or Apple's records; ask us and we'll have Superwall delete its data.</li>
+  <li>Deleting the app also deletes its data on your iPhone, except a small security-key reference that iOS keeps in the keychain ("Delete all my data" removes it too). Our server's data then expires on its own (see the table above).</li>
+</ul>
+<p><strong>Your rights.</strong> Under the GDPR, and under US state privacy laws where they apply, you can ask to know and access the personal data we hold about you, to correct it, to delete it, to get a copy, to restrict or object to its use, and to withdraw your consent. Using your rights never costs you anything or changes how Boxmode treats you.</p>
+<p><strong>How to ask.</strong> Email <a href="mailto:support@glaw.app">support@glaw.app</a>. We answer within one month, or within 45 days where a US state law sets that period, and tell you if we need more time and why. Because Boxmode has no accounts and our server holds no name or contact details, we usually can't connect an email to the data on our server; "Delete all my data" in the app proves which installation is yours and deletes it right away. To find your Superwall data, we may ask for the date of your purchase and the order ID from Apple's receipt email. You can also let an authorized agent ask for you; we may ask for proof.</p>
+<p><strong>Appeals.</strong> If we turn down your request, you can appeal by replying "Appeal". We answer within 45 days. If you're not satisfied, you can contact your state's attorney general.</p>
+<p><strong>Complaints.</strong> You can complain to a data protection authority, for example the Austrian Datenschutzbehörde (<a href="https://www.dsb.gv.at/">dsb.gv.at</a>) or the authority where you live.</p>
+<h2 id="california-and-other-us-states">California and other US states</h2>
+<p><strong>Categories (California's notice at collection).</strong> Boxmode collects these categories of personal information:</p>
+<ul>
+  <li><strong>Identifiers:</strong> Superwall's random user ID and device ID, Apple's identifier for vendor (IDFV), the App Attest installation key, and your IP address (Superwall keeps it with its events; our server doesn't store it).</li>
+  <li><strong>Commercial information:</strong> your subscription purchases and status.</li>
+  <li><strong>Internet activity:</strong> how you use the subscription screen.</li>
+  <li><strong>Approximate location:</strong> Superwall's city-level estimate from your IP address. Never your precise location.</li>
+  <li><strong>Audio-visual information:</strong> the clip and pictures you send for AI analysis (no sound).</li>
+  <li><strong>Inferences:</strong> the AI's scores of your boxing technique.</li>
+  <li><strong>Sensitive personal information:</strong> a video of you could count as health or biometric information under some laws. We use it only to give you the AI analysis you ask for, so there's nothing to limit.</li>
+</ul>
+<p>They come from you and your iPhone, and from Apple. We use them for the purposes above and disclose them only to our service providers Cloudflare, OpenRouter, Google and Superwall, for those purposes. How long we keep each one is in the table above.</p>
+<p><strong>We do not sell or share your personal information,</strong> and we haven't done so in the past 12 months. That includes personal information of people under 16.</p>
+<p><strong>Do Not Track and Global Privacy Control.</strong> Boxmode doesn't track you across other companies' apps or websites, and these legal pages use no cookies, analytics or trackers. So there is nothing to turn off when your browser sends a "Do Not Track" or Global Privacy Control signal; we treat both as a request not to sell or share, which we never do anyway. No other company collects information about your activity across apps or websites through Boxmode. These pages are hosted on GitHub Pages, which logs visitors' IP addresses for security (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub's note</a>).</p>
+<p><strong>AI training.</strong> We don't collect, use or sell personal data to train large language models or any other AI models.</p>
+<p><strong>Consumer health data.</strong> Residents of Washington, Nevada and Connecticut: see our separate <a href="../health-data/">Consumer Health Data Privacy Policy</a>.</p>
+<h2 id="children-and-teens">Children and teens</h2>
+<p>Boxmode is for people aged 13 and older. Setup asks for your birth month and year; if you are under 13, Boxmode stops there. We don't knowingly collect personal data from children under 13. If you believe a child under 13 has used Boxmode, email us and we'll delete what we hold.</p>
+<p>Teens aged 13 and older can use all of Boxmode, including AI analysis after they allow it in the app. If you're under 18, the law where you live may require a parent's or guardian's permission to use Boxmode, buy a subscription or allow AI analysis, so ask them first. We don't use anyone's data for targeted advertising, and we never sell it.</p>
+<h2 id="changes-to-this-policy">Changes to this policy</h2>
+<p>When this policy changes, we update the date at the top and publish the new version at this address before it takes effect. If a change would use data we already have in a materially different way, we tell you in the app first and ask for your consent where the law requires it. Ask us for earlier versions at any time.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions and privacy requests: <strong><a href="mailto:support@glaw.app">support@glaw.app</a></strong></p>
+<p>Aleksandr Saliukov, Goeschlgasse 3, 1030 Vienna, Austria</p>
+</main>
+<footer>
+<p><a href="../">Boxmode</a> · <a href="../terms/">Terms of Use</a> · <a href="./">Privacy Policy</a> · <a href="../health-data/">Consumer Health Data</a> · <a href="../de/impressum/">Impressum</a></p>
+<p><a href="mailto:support@glaw.app">support@glaw.app</a></p>
+</footer>
+</body>
+</html>
