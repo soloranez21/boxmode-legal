@@ -15,13 +15,14 @@
 <p class="lang"><a href="../../privacy/" lang="en" hreflang="en">English</a></p>
 <a class="brand" href="../"><span class="dot" aria-hidden="true"></span>Boxmode</a>
 <h1>Boxmode Datenschutzerklärung</h1>
-<p class="meta">Stand: 27. Oktober 2026 · Gültig ab: 27. Oktober 2026</p>
+<p class="meta">Stand: 30. Oktober 2026 · Gültig ab: 30. Oktober 2026</p>
 <p>Boxmode ist ein Box-Coach für das iPhone. Die App beobachtet dein Training über die Kamera deines iPhones und coacht dich dabei. Sie ist so gebaut, dass dein Training auf deinem iPhone bleibt.</p>
 <h2 id="kurz-erklaert">Kurz erklärt</h2>
 <div class="card">
 <ul>
-  <li><strong>Deine Kamera bleibt auf deinem iPhone.</strong> Das Live-Tracking läuft auf deinem iPhone. Deine Videos, Runden, dein Verlauf und deine Antworten werden nur dort gespeichert.</li>
+  <li><strong>Deine Kamera bleibt auf deinem iPhone.</strong> Das Live-Tracking läuft auf deinem iPhone. Deine Videos, Runden und dein Verlauf werden nur dort gespeichert.</li>
   <li><strong>KI-Analyse ist deine Entscheidung.</strong> Nur wenn du zustimmst, gehen eine stumme Kopie des Clips, den du analysierst, Standbilder daraus und einige Trainingsangaben an unseren Server und über OpenRouter an Googles KI-Modell Gemini. Unser Server löscht den Clip, sobald die Analyse fertig ist, und bewahrt den Bericht höchstens 1 Stunde auf. Google speichert eine Kopie bis zu 55 Tage, um Missbrauch zu erkennen.</li>
+  <li><strong>Auch Einrichtungsstatistiken sind deine Entscheidung.</strong> Während deiner ersten Einrichtung teilt Boxmode PostHog mit, welche Seiten du siehst, und sendet für jede Antwort einen Code, nie deinen Namen. Tippst du auf dem ersten Bildschirm auf „Nicht teilen“, wird nichts gesendet.</li>
   <li><strong>Kein Konto, keine Werbung, kein Tracking.</strong> Wir verkaufen deine Daten nicht, geben sie nicht für Werbung weiter und trainieren damit keine KI.</li>
   <li><strong>Abos</strong> bezahlst du über Apple. Superwall hilft uns, die Abo-Seite zu betreiben.</li>
   <li><strong>Boxmode ist für Menschen ab 13 Jahren.</strong></li>
@@ -37,7 +38,7 @@
 <ul>
   <li>das Live-Kamerabild. Apples Vision-Framework erkennt darin deinen Körper auf deinem iPhone; die gemessenen Körperpunkte umfassen auch Punkte in deinem Gesicht (Nase, Augen und Ohren);</li>
   <li>deine Aufnahmen und die Videos, die du importierst, die Schlagzahlen, Wertungen und Wiederholungen deiner Runden sowie deinen Trainingsverlauf;</li>
-  <li>deine Antworten aus der Einrichtung, etwa zu Erfahrung, Zielen, Trainingstagen und Auslage, und deinen Vornamen, falls du ihn angibst;</li>
+  <li>deine Antworten aus der Einrichtung, etwa zu Erfahrung, Zielen, Trainingstagen und Auslage, und deinen Vornamen, falls du ihn angibst (wenn du Einrichtungsstatistiken teilst, geht nur ein Code für jede gewählte Option an PostHog, siehe unten; nie dein Name);</li>
   <li>deinen Karrierefortschritt, das Aussehen deines Kämpfers und deine Einstellungen;</li>
   <li>KI-Berichte, sobald sie auf deinem iPhone angekommen sind.</li>
 </ul>
@@ -105,6 +106,17 @@
 <p>Superwall erhält nie deinen Namen, deine Antworten, dein Alter, deine Videos, deine KI-Berichte oder deine Trainingsdaten. Wir nutzen weder Superwalls Installationszuordnung noch irgendein Werbenetzwerk.</p>
 <p>Rechtsgrundlage: Verkauf und Verwaltung deines Abos (Vertrag, Art. 6 Abs. 1 lit. b DSGVO) und unser berechtigtes Interesse, zu verstehen, wie unsere Abo-Seite funktioniert (Art. 6 Abs. 1 lit. f DSGVO; du kannst jederzeit widersprechen).</p>
 <p>Speicherdauer: Superwall bewahrt diese Daten auf, solange sie für diese Zwecke nötig sind, und löscht sie danach gemäß seinen Aufbewahrungsregeln und unserer Vereinbarung. Du kannst jederzeit verlangen, dass wir sie löschen lassen. Siehe auch <a href="https://superwall.com/legal/privacy-policy">Superwalls Datenschutzrichtlinie</a>.</p>
+<h2 id="einrichtungsstatistiken-posthog">Einrichtungsstatistiken (PostHog)</h2>
+<p>Auf dem ersten Bildschirm steht: „Wenn du fortfährst, teilst du Einrichtungsstatistiken, nie deinen Namen.“ Fährst du fort, sendet Boxmode pseudonyme Nutzungsereignisse an PostHog Inc. (USA), unseren Analyse-Dienstleister (Auftragsverarbeiter). So sehen wir, welche Einrichtungsseiten helfen und wo Menschen aufhören. Tippst du dort auf „Nicht teilen“, wird nichts gesendet, und bevor du fortfährst, verlässt nichts dein iPhone. PostHog speichert diese Daten in seiner EU-Cloud in Frankfurt am Main. Die Statistik läuft nur während deiner ersten Einrichtung, vom ersten Bildschirm bis „Tag 1 starten“, und endet endgültig, sobald sie abgeschlossen ist. Training, KI-Analyse, „Intro nochmal ansehen“ und der Rest der App senden nie Einrichtungsstatistiken.</p>
+<p>PostHog erhält:</p>
+<ul>
+  <li><strong>Einrichtungsereignisse:</strong> welche Einrichtungsseite du gesehen hast, ob du vor oder zurück gegangen bist, wie viele Sekunden du darauf verbracht hast, die Option, die du bei jeder Frage gewählt hast (als Code, etwa „etwas Erfahrung“ oder „zu Hause“), die gewählten Tage pro Woche und Minuten, ob du einen Namen eingegeben hast (nur ja oder nein, nie der Name selbst), ob du die Kamera erlaubt hast, wann du die App verlassen hast oder zurückgekehrt bist und wann die Einrichtung abgeschlossen war.</li>
+  <li><strong>Eine zufällige Statistik-ID</strong>, die Boxmode auf deinem iPhone erzeugt. Sie ist weder Apples Werbe-ID noch die Anbieterkennung (IDFV) und wird nicht mit Superwall geteilt. „Alle meine Daten löschen“ ersetzt sie durch eine neue.</li>
+  <li><strong>Geräte- und App-Informationen</strong> wie Gerätemodell, iOS-Version, App-Version, App-Sprache, Region, Zeitzone, Bildschirmgröße und Netzwerktyp.</li>
+</ul>
+<p>PostHog speichert deine IP-Adresse nicht und ermittelt daraus keinen Standort, und es wird kein Profil über dich angelegt. Wir senden PostHog nie deinen Namen, dein Kamerabild, deine Videos, deine Runden, deine KI-Berichte oder Kaufdetails (PostHog sieht nur, dass du über die Abo-Seite hinausgegangen bist).</p>
+<p>Rechtsgrundlage: unser berechtigtes Interesse, die Einrichtung zu verbessern (Art. 6 Abs. 1 lit. f DSGVO). Die Ereignisse werden erst gesendet, nachdem du den Hinweis auf dem ersten Bildschirm gesehen hast und fortgefahren bist; tippe dort auf „Nicht teilen“, um abzulehnen, oder widersprich jederzeit per E-Mail.</p>
+<p>Speicherdauer: PostHog bewahrt Einrichtungsstatistiken bis zu 12 Monate auf und löscht sie dann. Siehe auch die <a href="https://posthog.com/privacy">Datenschutzerklärung von PostHog</a>.</p>
 <h2 id="weitere-apple-dienste">Weitere Apple-Dienste</h2>
 <ul>
   <li><strong>App Store und StoreKit:</strong> Downloads, Käufe, Wiederherstellungen und die Bewertungsabfrage sind Apples eigene Dienste.</li>
@@ -132,14 +144,15 @@
     <tr><td>Technische Protokolle (ohne Medien, ohne IP)</td><td>Cloudflare</td><td>bis zu 7 Tage</td></tr>
     <tr><td>IP-Adresse</td><td>unser Server</td><td>nicht gespeichert (Überlastungszähler für 60 Sekunden)</td></tr>
     <tr><td>Abo-Daten</td><td>Superwall</td><td>solange für das Abo nötig; Löschung auf Anfrage</td></tr>
+    <tr><td>Einrichtungsstatistiken</td><td>PostHog (EU, Frankfurt)</td><td>bis zu 12 Monate</td></tr>
     <tr><td>Käufe</td><td>Apple</td><td>nach Apples Richtlinien</td></tr>
     <tr><td>Support-E-Mails</td><td>unser Postfach</td><td>in der Regel bis zu 12 Monate</td></tr>
   </tbody>
 </table></div>
 <h2 id="wer-daten-erhaelt-und-wo">Wer Daten erhält und wo</h2>
-<p>Cloudflare, OpenRouter, Google, Superwall und Apple sind die einzigen Unternehmen, die Daten aus der Boxmode-App erhalten, und jedes davon schützt sie mindestens so gut, wie es in dieser Erklärung beschrieben ist.</p>
-<p>Cloudflare, OpenRouter und Superwall arbeiten für uns auf Grundlage von Auftragsverarbeitungsverträgen, die sie an unsere Zwecke binden (<a href="https://www.cloudflare.com/cloudflare-customer-dpa/">Cloudflare</a>, <a href="https://openrouter.ai/data-processing-agreement">OpenRouter</a>, <a href="https://superwall.com/legal/dpa">Superwall</a>). Google verarbeitet KI-Anfragen für OpenRouter nach Googles Datenverarbeitungsbedingungen für seine kostenpflichtige API. Apple ist für seine eigenen Dienste selbst verantwortlich.</p>
-<p>Diese Unternehmen haben ihren Sitz in den USA und können Daten in den USA und anderen Ländern verarbeiten. Übermittlungen aus der EU, dem EWR, dem Vereinigten Königreich oder der Schweiz stützen sich auf die EU-Standardvertragsklauseln (und ihre britische und Schweizer Fassung) oder einen anderen nach der DSGVO zulässigen Mechanismus, etwa das EU-US Data Privacy Framework, sofern der Empfänger danach zertifiziert ist.</p>
+<p>Cloudflare, OpenRouter, Google, Superwall, PostHog und Apple sind die einzigen Unternehmen, die Daten aus der Boxmode-App erhalten, und jedes davon schützt sie mindestens so gut, wie es in dieser Erklärung beschrieben ist.</p>
+<p>Cloudflare, OpenRouter und Superwall arbeiten für uns auf Grundlage von Auftragsverarbeitungsverträgen, die sie an unsere Zwecke binden (<a href="https://www.cloudflare.com/cloudflare-customer-dpa/">Cloudflare</a>, <a href="https://openrouter.ai/data-processing-agreement">OpenRouter</a>, <a href="https://superwall.com/legal/dpa">Superwall</a>). Google verarbeitet KI-Anfragen für OpenRouter nach Googles Datenverarbeitungsbedingungen für seine kostenpflichtige API. PostHog verarbeitet Einrichtungsstatistiken für uns als unser Analyse-Dienstleister. Apple ist für seine eigenen Dienste selbst verantwortlich.</p>
+<p>Diese Unternehmen haben ihren Sitz in den USA und können Daten in den USA und anderen Ländern verarbeiten; PostHog speichert Einrichtungsstatistiken in der EU (Frankfurt am Main). Übermittlungen aus der EU, dem EWR, dem Vereinigten Königreich oder der Schweiz stützen sich auf die EU-Standardvertragsklauseln (und ihre britische und Schweizer Fassung) oder einen anderen nach der DSGVO zulässigen Mechanismus, etwa das EU-US Data Privacy Framework, sofern der Empfänger danach zertifiziert ist.</p>
 <p>Wo unser Server Daten speichert, wählt Cloudflare: Uploads liegen in der Regel an Cloudflares Standort in Osteuropa, die übrigen Datensätze meist in einem Rechenzentrum in der Nähe des Orts, an dem du die KI-Analyse zum ersten Mal genutzt hast.</p>
 <p>Wir verkaufen keine personenbezogenen Daten, geben sie nicht für kontextübergreifende Werbung weiter und nutzen sie nicht für zielgerichtete Werbung. Die einzige automatische Bewertung ist der Technik-Bericht, um den du bittest: Er wird nur dir angezeigt, und wir treffen damit keine Entscheidungen über dich.</p>
 <h2 id="sicherheit">Sicherheit</h2>
@@ -148,8 +161,9 @@
 <p><strong>In der App:</strong></p>
 <ul>
   <li>KI-Analyse ein- oder ausschalten: Einstellungen → „Uploads für KI-Analyse erlauben“.</li>
+  <li>Einrichtungsstatistiken ablehnen: Tippe auf dem ersten Bildschirm auf „Nicht teilen“. Nach der Einrichtung wird nichts mehr gesendet.</li>
   <li>Eine Runde aus deinem Verlauf löschen. Liegt ihr KI-Bericht noch auf unserem Server, wird er dort ebenfalls gelöscht.</li>
-  <li>Alles löschen: Einstellungen → „Alle meine Daten löschen“ bittet zuerst unseren Server, deinen Installationsdatensatz und deine Analysen sofort zu löschen, löscht dann alles, was Boxmode auf deinem iPhone gespeichert hat, und Boxmode beginnt von vorn. Ist unser Server nicht erreichbar, kannst du es später erneut versuchen oder nur auf deinem iPhone löschen; der Installationsdatensatz läuft dann innerhalb von 12 Monaten von selbst ab. Dein Abo wird dadurch nicht gekündigt: Die Abrechnung über Apple läuft weiter, bis du unter Einstellungen → „Abo verwalten“ oder in den iPhone-Einstellungen → dein Name → Abonnements kündigst. Die Daten bei Superwall und Apple erreicht die Funktion nicht; schreib uns, und wir lassen Superwall deine Daten löschen.</li>
+  <li>Alles löschen: Einstellungen → „Alle meine Daten löschen“ bittet zuerst unseren Server, deinen Installationsdatensatz und deine Analysen sofort zu löschen, löscht dann alles, was Boxmode auf deinem iPhone gespeichert hat, und Boxmode beginnt von vorn. Ist unser Server nicht erreichbar, kannst du es später erneut versuchen oder nur auf deinem iPhone löschen; der Installationsdatensatz läuft dann innerhalb von 12 Monaten von selbst ab. Dein Abo wird dadurch nicht gekündigt: Die Abrechnung über Apple läuft weiter, bis du unter Einstellungen → „Abo verwalten“ oder in den iPhone-Einstellungen → dein Name → Abonnements kündigst. Die Daten bei Superwall, PostHog und Apple erreicht die Funktion nicht; schreib uns, und wir lassen Superwall deine Daten löschen. Einrichtungsstatistiken sind nicht mit deinem Namen oder einem Konto verknüpft, daher können wir womöglich nicht erkennen, welche Ereignisse deine sind; PostHog löscht sie nach 12 Monaten.</li>
   <li>Wenn du die App löschst, werden auch ihre Daten auf deinem iPhone gelöscht, bis auf einen kleinen Verweis auf den Sicherheitsschlüssel, den iOS im Schlüsselbund behält („Alle meine Daten löschen“ entfernt auch ihn). Die Daten auf unserem Server laufen dann von selbst ab (siehe Tabelle oben).</li>
 </ul>
 <p><strong>Deine Rechte.</strong> Nach der DSGVO und, wo sie gelten, nach den Datenschutzgesetzen von US-Bundesstaaten kannst du verlangen, zu erfahren, welche personenbezogenen Daten wir über dich haben, und Auskunft darüber, Berichtigung, Löschung, eine Kopie (Datenübertragbarkeit), Einschränkung der Verarbeitung; du kannst der Verarbeitung widersprechen und deine Einwilligung widerrufen. Die Ausübung deiner Rechte kostet dich nichts und ändert nichts daran, wie Boxmode dich behandelt.</p>
@@ -159,15 +173,15 @@
 <h2 id="kalifornien-und-andere-us-bundesstaaten">Kalifornien und andere US-Bundesstaaten</h2>
 <p><strong>Kategorien (Hinweis bei der Erhebung nach kalifornischem Recht).</strong> Boxmode erhebt diese Kategorien personenbezogener Informationen:</p>
 <ul>
-  <li><strong>Kennungen:</strong> Superwalls zufällige Nutzer- und Geräte-ID, Apples Anbieterkennung (IDFV), den App-Attest-Installationsschlüssel und deine IP-Adresse (Superwall bewahrt sie mit seinen Ereignissen auf; unser Server speichert sie nicht).</li>
+  <li><strong>Kennungen:</strong> Superwalls zufällige Nutzer- und Geräte-ID, Apples Anbieterkennung (IDFV), den App-Attest-Installationsschlüssel, die zufällige Statistik-ID der Einrichtungsstatistiken (PostHog) und deine IP-Adresse (Superwall bewahrt sie mit seinen Ereignissen auf; unser Server speichert sie nicht).</li>
   <li><strong>Kaufbezogene Informationen:</strong> deine Abo-Käufe und dein Abostatus.</li>
-  <li><strong>Internetaktivität:</strong> wie du die Abo-Seite nutzt.</li>
+  <li><strong>Internetaktivität:</strong> wie du die Einrichtungsseiten (wenn du Einrichtungsstatistiken teilst) und die Abo-Seite nutzt.</li>
   <li><strong>Ungefährer Standort:</strong> Superwalls Schätzung auf Stadtebene aus deiner IP-Adresse. Nie dein genauer Standort.</li>
   <li><strong>Audiovisuelle Informationen:</strong> der Clip und die Standbilder, die du zur KI-Analyse sendest (ohne Ton).</li>
   <li><strong>Ableitungen:</strong> die Bewertungen deiner Boxtechnik durch die KI.</li>
   <li><strong>Sensible personenbezogene Informationen:</strong> Ein Video von dir könnte nach manchen Gesetzen als Gesundheits- oder biometrische Information gelten. Wir nutzen es nur, um dir die KI-Analyse zu liefern, um die du bittest; es gibt also nichts einzuschränken.</li>
 </ul>
-<p>Sie stammen von dir und deinem iPhone sowie von Apple. Wir nutzen sie für die oben genannten Zwecke und geben sie nur an unsere Dienstleister Cloudflare, OpenRouter, Google und Superwall für diese Zwecke weiter. Wie lange wir sie jeweils aufbewahren, steht in der Tabelle oben.</p>
+<p>Sie stammen von dir und deinem iPhone sowie von Apple. Wir nutzen sie für die oben genannten Zwecke und geben sie nur an unsere Dienstleister Cloudflare, OpenRouter, Google, Superwall und PostHog für diese Zwecke weiter. Wie lange wir sie jeweils aufbewahren, steht in der Tabelle oben.</p>
 <p><strong>Wir verkaufen deine personenbezogenen Informationen nicht und geben sie nicht weiter („sell“ oder „share“ im Sinne des kalifornischen Rechts)</strong> und haben das auch in den letzten 12 Monaten nicht getan. Das gilt auch für personenbezogene Informationen von Menschen unter 16 Jahren.</p>
 <p><strong>Do Not Track und Global Privacy Control.</strong> Boxmode verfolgt dich nicht über Apps oder Websites anderer Unternehmen hinweg, und diese Rechtsseiten verwenden keine Cookies, Analyse- oder Tracking-Werkzeuge. Wenn dein Browser ein „Do Not Track“- oder Global-Privacy-Control-Signal sendet, gibt es deshalb nichts abzuschalten; wir behandeln beides als Wunsch, Daten nicht zu verkaufen oder weiterzugeben, was wir ohnehin nie tun. Kein anderes Unternehmen erfasst über Boxmode Informationen über deine Aktivität über Apps oder Websites hinweg. Diese Seiten liegen auf GitHub Pages, das die IP-Adressen der Besucher aus Sicherheitsgründen protokolliert (<a href="https://docs.github.com/de/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">Hinweis von GitHub</a>).</p>
 <p><strong>KI-Training.</strong> Wir erheben, nutzen oder verkaufen keine personenbezogenen Daten, um große Sprachmodelle oder andere KI-Modelle zu trainieren.</p>
